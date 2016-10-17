@@ -1,0 +1,29 @@
+<- Vertex ----------------------------------------------------------------------
+The vertex class handles vertices properties(coordinates/color).
+
+An instance can be constructed from an array of coordinates:
+new Vertex( array( 'x' => x_val, 'y' => y_val, 'z' => z_val ) );
+
+You can also add optional parameters:
+new Vertex( array( 'x' => x_val, 'y' => y_val, 'z' => z_val, 'w' => w_val, 'color' => color_class ) );
+
+The array of coordinates xyz is OBLIGATORY;
+The w and color parameters are respectively set to 1.0 and WHITE by default.
+
+The class provides setters and getters for all attributes (except verbose which is public static)
+
+List of accessible attributes via setters/getters:
+
+- _x
+- _y
+- _z
+- _w
+- _color
+
+Use the setters/getters as followed:
+
+$vertex_instance->getVar("name_of_attribute");
+$vertex_instance->setVar("name_of_attribute", value_you want_to_set_it_to);
+
+The name of the attribute MUST BE with the underscore.
+---------------------------------------------------------------------- Vertex ->

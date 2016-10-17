@@ -1,0 +1,141 @@
+.headerbox {
+  position: fixed;
+  left: 232;
+  top: 18;
+  width: 1420px;
+  height: 137px;
+  background-color: #909090;
+  box-shadow: 10px 10px 10px #030303;
+  border-radius: 10px;
+}
+.leftbox {
+  position: fixed;
+  left: 265;
+  top: 177;
+  width: 145;
+  height: 425;
+  background-color: #909090;
+  box-shadow: 10px 10px 10px #030303;
+  border-radius: 10px
+}
+.midbox {
+  position: fixed;
+  left: 436;
+  top: 177;
+  width: 1020px;
+  height: 585;
+  background-color: #909090;
+  box-shadow: 10px 10px 10px #030303;
+  border-radius: 10px
+}
+.rightbox {
+  position: fixed;
+  left: 1485;
+  top: 177;
+  width: 140px;
+  height: 425px;
+  background-color: #909090;
+  box-shadow: 10px 10px 10px #030303;
+  border-radius: 10px;
+}
+.greenbox {
+  position: fixed;
+  left: 189;
+  top: 681;
+  width: 520;
+  height: 170;
+  background-color: #88ff89;
+  box-shadow: 10px 10px 10px #030303;
+  border-radius: 10px;
+}
+.doftimg {
+  width: 25%;
+  height: 80%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.reloadimg {
+  width: 1.5%;
+  height: 15%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.closeimg {
+  margin-top: 108px;
+  margin-right: -25px;
+}
+.arrowimg {
+  width: 50%;
+  height: 16%;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.handimg {
+  width: 50%;
+  height: 16%;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.eyeimg {
+  width: 70px;
+  height: 67px;
+  margin-left: 35px;
+  margin-top: 5px;
+  border: 5px solid #fb0000;
+  border-radius: 5px;
+}
+.toolimg {
+  width: 50%;
+  height: 16%;
+  margin-left: 35px;
+  margin-top: 5px;
+}
+.chatimg {
+  width: 50%;
+  height: 16%;
+  margin-left: 35px;
+  margin-top: 5px;
+}
+.clusterimg {
+  width: 98%;
+  height: 97%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.bookimg {
+  width: 50%;
+  height: 23%;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.towelimg {
+  width: 50%;
+  height: 13%;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+.brickimg {
+  width: 120px;
+  height: 72px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.ligne {
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#bigtext {
+  font-size: 2.2em;
+  font-family: serif;
+  font-weight: lighter;
+}
+#smalltext {
+  font-size: 1.15em;
+  font-family: sans-serif;
+}
+#asktext {
+  font-size: 1.1em;
+  font-family: sans-serif;
+  font-style: italic;
+}

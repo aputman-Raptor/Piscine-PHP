@@ -1,0 +1,43 @@
+<- Vector ----------------------------------------------------------------------
+The Vector class handles vertices movement properties(direction/length).
+
+An instance can be constructed from an array of vertices:
+new Vector(array('dest' => new Vertex(array('x' => x_val, 'y' => y_val, 'z' => z_val, 'w' => w_val, 'color' => color_class))))
+
+You can specify a second vertice with the key 'orig' but it is optional.
+The only obligatory argument is the 'dest' vertice (and its own obligatory argument).
+The 'orig' param is set to the default vertice value if not specified.
+
+The Vector class provides only getters for all its attributes (they are the same as the vertice attributes except _color)
+
+Use the getters as those from the Vertex class.
+
+The Vector class provides many methods to interact with vectors:
+
+float magnitude()
+Returns the length of the current vector.
+
+Vector normalize()
+Returns a normalized version of the current vector or a fresh copy of it if it is already normalized.
+
+Vector add( Vector $rhs )
+Returns a vector-sum of the current vector added to the argument vector.
+
+Vector sub( Vector $rhs )
+Returns a vector-diff of the current vector substracted by the argument vector.
+
+Vector opposite()
+Returns a reverted copy of the current vector.
+
+Vector scalarProduct( $k )
+Returns the product of the current vector and and the scalar argument.
+
+float dotProduct( Vector $rhs )
+Return the scalar product of the current vector and the argument vector.
+
+float cos( Vector $rhs )
+Returns the cosinus of the angle between the current vector and the argument vector.
+
+Vector crossProduct( Vector $rhs )
+Return the cross product of the current vector and the argument vector.
+---------------------------------------------------------------------- Vector ->

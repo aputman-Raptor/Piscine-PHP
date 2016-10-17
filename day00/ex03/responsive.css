@@ -1,0 +1,52 @@
+td {
+  border: 1px solid #8811ff;
+}
+.matom {
+  display: block;
+  font-size: 0.695vw;
+  text-align: right;
+}
+.satom {
+  display: block;
+  font-size: 1.112vw;
+  font-weight: bold;
+  text-align: center;
+}
+.natom {
+  display: block;
+  font-size: 0.9035vw;
+  text-align: left;
+}
+.noblegas {
+  background-color: #c0ffff;
+}
+.diatomic {
+  background-color: #e7ff8f;
+}
+.metalloid {
+  background-color: #cccc99;
+}
+.polyatomic {
+  background-color: #a1ffc3;
+}
+.alkametal {
+  background-color: #ff6666;
+}
+.alkaearth {
+  background-color: #ffdead;
+}
+.transmetal {
+  background-color: #ffc0c0;
+}
+.posttrans {
+  background-color: #cccccc;
+}
+.lantha {
+  background-color: #ffbfff;
+}
+.acti {
+  background-color: #ff99cc;
+}
+.unknown {
+  background-color: #e8e8e8;
+}
